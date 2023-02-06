@@ -7,28 +7,28 @@ on:
 
 jobs:
   build:
-    runs_on: windows_latest
+    runs_on: windows-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
 
-      - name: Setup Flutter
-        uses: subosito/flutter_action@v1
-        with:
-          channel: 'beta'
+    - name: Setup Flutter
+      uses: subosito/flutter_action@v1
+      with:
+        channel: 'beta'
 
-      - name: Enable Flutter Web
-        run: flutter config --enable-web
+    - name: Enable Flutter Web
+      run: flutter config --enable-web
 
-      - name: Install Dependences
-        run: flutter packages get
+    - name: Install Dependences
+      run: flutter packages get
 
-      - name: Build Web
-        run: flutter build web
+    - name: Build Web
+      run: flutter build web
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.token }}
-          publish_dir: ./build/web
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.token }}
+        publish_dir: ./build/web
