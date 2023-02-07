@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_developer_student_clubs/screens/onboding/onboding_screen.dart';
+import 'package:google_developer_student_clubs/screens/loading/loading_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,21 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'GDSC UNI',
-      theme: ThemeData(
-        scaffoldBackgroundColor: const Color(0xFFEEF1F8),
-        primarySwatch: Colors.blue,
-        fontFamily: "Mukta",
-        inputDecorationTheme: InputDecorationTheme(
-          filled: true,
-          fillColor: Colors.white,
-          errorStyle: TextStyle(height: 0),
-          border: defaultInputBorder,
-          enabledBorder: defaultInputBorder,
-          focusedBorder: defaultInputBorder,
-          errorBorder: defaultInputBorder,
-        ),
-      ),
-      home: const OnbodingScreen(),
+      home: const SplashScreenPage(),
     );
   }
   
