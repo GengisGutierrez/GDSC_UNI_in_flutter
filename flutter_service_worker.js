@@ -12,7 +12,7 @@ const RESOURCES = {
 "assets/assets/RiveAssets/gdsc_uni_logo.riv": "9b5fef098ea4c780204f6ca04b5d3b3e",
 "assets/FontManifest.json": "4afe76e5cd7e8c914e56049ecb8e366b",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "0fae7012d668d39b35d510649c2deaf0",
+"assets/NOTICES": "eedc1971071c0aab75e681b5be9ab718",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
 "canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
@@ -24,9 +24,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "00e35ae8a80afed01e1b25f82d3266a8",
-"/": "00e35ae8a80afed01e1b25f82d3266a8",
-"main.dart.js": "f2a86025d6a1454b64f8a16efba09953",
+"index.html": "01922a7986c562ef122a5e83fbd869ba",
+"/": "01922a7986c562ef122a5e83fbd869ba",
+"main.dart.js": "d9c913a4af9c3a58151721916e66ec78",
 "manifest.json": "9e0ab7fbf0052e136e0ff0e358c15c2e",
 "version.json": "c4a7534ca043c05c46ccebc4d5ee7377"
 };
