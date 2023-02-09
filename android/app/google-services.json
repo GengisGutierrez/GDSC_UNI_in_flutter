@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "744391637769",
+    "project_id": "mobile-gdsc-uni",
+    "storage_bucket": "mobile-gdsc-uni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744391637769:android:3217031a3e6445ee02b1d8",
+        "android_client_info": {
+          "package_name": "com.example.google_developer_student_clubs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744391637769-81t8viv18lcjokvm2n3unim9hpikkcan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.google_developer_student_clubs",
+            "certificate_hash": "7d599524ced234136c60b364362e25c60dd1ecb9"
+          }
+        },
+        {
+          "client_id": "744391637769-ioco3fiej9m5ho8vdfikod7kuimalm6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnXynhmybb-raKYY2HOqq1JNj3sAxEftU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744391637769-c8mvn9c7shmu0va6s0k453nsp7t0ti10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

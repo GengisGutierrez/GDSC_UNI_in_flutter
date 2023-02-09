@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:google_developer_student_clubs/screens/home/home_screen.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:google_developer_student_clubs/screens/loading/intro_screen.dart';
 import 'package:rive/rive.dart';
 
 class SplashScreenPage extends StatefulWidget {
@@ -23,7 +23,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
           ),
         ),
       ),
-      nextScreen: HomeScreen(),
+      nextScreen: IntroScreen(),
     );
   }
 
