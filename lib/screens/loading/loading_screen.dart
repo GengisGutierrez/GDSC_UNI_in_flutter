@@ -17,10 +17,8 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
     return AnimatedSplashScreen(
       duration: 3000,
       splash: Container(
-        child: Center(
-          child: SizedBox(
-              child: RiveAnimation.asset('assets/RiveAssets/gdsc_uni_logo.riv')
-          ),
+        child: Expanded(
+          child: RiveAnimation.asset('assets/RiveAssets/gdsc_uni_logo.riv'),
         ),
       ),
       nextScreen: IntroScreen(),
