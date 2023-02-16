@@ -24,6 +24,7 @@ class _IntroPager extends HookWidget {
       color: Colors.white,
       child: Stack(
         children: [
+          /**
           Positioned.fill(
             top: -100,
               child: SizedBox(
@@ -32,6 +33,7 @@ class _IntroPager extends HookWidget {
                   child: RiveAnimation.asset('assets/RiveAssets/developer.riv')
               ),
           ),
+              **/
           AnimatedPositioned(
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,

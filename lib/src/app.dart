@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../screens/loading/loading_screen.dart';
+import 'package:google_developer_student_clubs/screens/loading/intro_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'GDSC UNI',
-      home: const SplashScreenPage(),
+      home: IntroScreen(),
     );
   }
 }
