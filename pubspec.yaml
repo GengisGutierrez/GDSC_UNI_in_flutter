@@ -13,9 +13,10 @@ dependencies:
     sdk: flutter
 
   flutter_svg: ^1.0.2
-  rive: ^0.9.1
+  rive: ^0.9.1  #Por eliminar hasta encontrar un lugar donde utilizar máquinas de estado
   cupertino_icons: ^1.0.2
-  animated_splash_screen: ^1.3.0
+  lottie: ^2.2.0
+  animated_splash_screen: ^1.3.0  #Por eliminar tras encontrar la forma de hacer una SS natural
   firebase_core: ^2.4.1
   firebase_auth: ^4.2.5
   equatable: ^2.0.5
@@ -37,10 +38,9 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/avaters/
     - assets/Backgrounds/
-    - assets/icons/
-    - assets/RiveAssets/
+    - assets/Images/
+    - assets/LottieAssets/
 
   fonts:
     - family: Mukta
